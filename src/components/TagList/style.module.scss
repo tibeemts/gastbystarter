@@ -1,0 +1,35 @@
+
+
+.wrap {
+    margin: em(50) 0 0 0;
+}
+
+.mainTitle {
+    font-weight: 700;
+    margin: em(15) 0 em(7) 0;
+}
+
+.item {
+    background-color: #f5f5f5;
+    border-radius: em(5);
+    display: inline-block;
+    margin: 0 0.25em 0.25em 0;
+    padding: 0.25em 0.425em;
+
+    &List {
+        list-style: none;
+        margin: 0;
+    }
+
+    &Name {
+        font-family: 'arial';
+        font-size: em(16);
+        text-decoration: none;
+        // @include animate-transition(all, 0.3s);
+
+        // &:hover,
+        // &:focus {
+        //     opacity: 0.5;
+        // }
+    }
+}

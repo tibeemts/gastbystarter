@@ -1,0 +1,37 @@
+
+
+.card {
+    &Wrap {
+        margin-bottom: em(40);
+
+        @media only screen and (min-width: em(730px)) {
+            margin-bottom: em(80);
+            &:last-of-type {
+                margin-bottom: em(10);
+            }
+        }
+    }
+
+    &Link {
+        width: 100%;
+        text-decoration: none;
+        // @include animate-transition(all, 0.3s);
+
+        // &:hover,
+        // &:focus {
+        //     opacity: 0.8;
+        // }
+    }
+
+    &Image {
+        margin-bottom: 0;
+    }
+
+    &Title {
+        font-size: em(30);
+    }
+
+    &Excerpt {
+        margin-top: em(20);
+    }
+}
